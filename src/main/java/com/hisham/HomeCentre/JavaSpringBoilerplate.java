@@ -17,11 +17,11 @@ import java.util.TimeZone;
 @SpringBootApplication
 @EntityScan(
 		basePackageClasses = {
-				HomeCentreApplication.class,
+				JavaSpringBoilerplate.class,
 				Jsr310JpaConverters.class
 		}
 )
-public class HomeCentreApplication {
+public class JavaSpringBoilerplate {
 
 	/*
 	The function will run after the successful construction of HomeCentreApplication.class
@@ -33,7 +33,7 @@ public class HomeCentreApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(HomeCentreApplication.class, args);
+		SpringApplication.run(JavaSpringBoilerplate.class, args);
 	}
 
 }

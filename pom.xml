@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hisham</groupId>
-	<artifactId>HomeCentre</artifactId>
+	<artifactId>JavaSpringBoilerplate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HomeCentre</name>
-	<description>An E-Commerce Backend</description>
+	<name>Spring-REST-Starter</name>
+	<description>A boilerplate for starter spring project with in-built JWT authentication</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
